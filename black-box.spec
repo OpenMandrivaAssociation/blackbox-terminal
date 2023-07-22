@@ -18,7 +18,7 @@ BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(librsvg-2.0)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(graphene-gobject-1.0)
-BuildRequires:  pkgconfig(vaapigen)
+BuildRequires:  pkgconfig(vapigen)
 
 %description
 A beautiful GTK 4 terminal
