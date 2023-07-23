@@ -1,10 +1,10 @@
-Name:           black-box
+Name:           blackbox-terminal
 Version:        0.14.0
 Release:        1
 Summary:        An elegant and customizable terminal for GNOME
 License:        GPL-3.0
 URL:            https://gitlab.gnome.org/raggesilver/blackbox/
-Source0:	      https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.14.0/blackbox-v0.14.0.tar.bz2
+Source0:	https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v%{version}/blackbox-v%{version}.tar.bz2
 
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gtk4)
@@ -36,7 +36,7 @@ Easily paste file paths by dragging them into the window
 This app is written in Vala and uses GTK 4, libadwaita, and VTE.
 
 %prep
-%autosetup -n gnome-console-%{version} -p1
+%autosetup -n blackbox-v%{version} -p1
 
 %build
 %meson  \
