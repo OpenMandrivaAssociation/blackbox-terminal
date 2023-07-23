@@ -54,7 +54,7 @@ This app is written in Vala and uses GTK 4, libadwaita, and VTE.
 
 %find_lang blackbox
 
-%files  -f blackbox.lang
+%files -f blackbox.lang
 %{_bindir}/blackbox
 %{_datadir}/applications/com.raggesilver.BlackBox.desktop
 %{_datadir}/blackbox/icons/
