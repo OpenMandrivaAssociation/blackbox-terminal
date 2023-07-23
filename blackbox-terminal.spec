@@ -52,4 +52,13 @@ This app is written in Vala and uses GTK 4, libadwaita, and VTE.
 %install
 %meson_install
 
-%files 
+%find_lang blackbox
+
+%files  -f blackbox.lang
+%{_bindir}/blackbox
+%{_datadir}/applications/com.raggesilver.BlackBox.desktop
+%{_datadir}/blackbox/icons/
+%{_datadir}/blackbox/schemes/
+%{_datadir}/glib-2.0/schemas/
+%{_datadir}/icons/hicolor/scalable/actions/
+%{_datadir}/metainfo/com.raggesilver.BlackBox.metainfo.xml
