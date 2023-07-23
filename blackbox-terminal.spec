@@ -11,6 +11,7 @@ URL:            https://gitlab.gnome.org/raggesilver/blackbox/
 Source0:	https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v%{version}/blackbox-v%{version}.tar.bz2
 
 BuildRequires:  meson
+BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(libadwaita-1)
