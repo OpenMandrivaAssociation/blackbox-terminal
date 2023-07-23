@@ -1,5 +1,6 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 %global optflags %{optflags} -Wno-error -Wno-implicit-function-declaration
+%global optflags %{optflags} -Wno-return-type
 
 Name:           blackbox-terminal
 Version:        0.14.0
