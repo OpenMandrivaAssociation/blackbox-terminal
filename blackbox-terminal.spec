@@ -61,4 +61,5 @@ This app is written in Vala and uses GTK 4, libadwaita, and VTE.
 %{_datadir}/blackbox/schemes/
 %{_datadir}/glib-2.0/schemas/
 %{_datadir}/icons/hicolor/scalable/actions/
+%{_datadir}/icons/hicolor/scalable/apps/com.raggesilver.BlackBox.svg
 %{_datadir}/metainfo/com.raggesilver.BlackBox.metainfo.xml
