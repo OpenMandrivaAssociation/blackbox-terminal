@@ -2,13 +2,16 @@
 %global optflags %{optflags} -Wno-error -Wno-implicit-function-declaration
 %global optflags %{optflags} -Wno-return-type
 
+%define git 20250130
+
 Name:           blackbox-terminal
-Version:        0.14.0
+Version:        0.14.0.%{git}.0
 Release:        1
 Summary:        An elegant and customizable terminal for GNOME
 License:        GPL-3.0
 URL:            https://gitlab.gnome.org/raggesilver/blackbox/
-Source0:	https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v%{version}/blackbox-v%{version}.tar.bz2
+#Source0:	https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v%{version}/blackbox-v%{version}.tar.bz2
+Source0:        blackbox-main.tar.bz2
 
 BuildRequires:  meson
 BuildRequires:  appstream-util
@@ -43,7 +46,7 @@ Easily paste file paths by dragging them into the window
 This app is written in Vala and uses GTK 4, libadwaita, and VTE.
 
 %prep
-%autosetup -n blackbox-v%{version} -p1
+%autosetup -n blackbox-main -p1
 
 %build
 %meson  \
