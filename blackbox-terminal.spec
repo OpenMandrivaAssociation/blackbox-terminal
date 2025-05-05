@@ -5,8 +5,8 @@
 %define git 20250130
 
 Name:           blackbox-terminal
-Version:        0.14.0.%{git}.0
-Release:        1
+Version:        0.14.0.%{git}
+Release:        2
 Summary:        An elegant and customizable terminal for GNOME
 License:        GPL-3.0
 URL:            https://gitlab.gnome.org/raggesilver/blackbox/
