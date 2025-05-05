@@ -5,7 +5,7 @@
 %define git 20250130
 
 Name:           blackbox-terminal
-Version:        0.15.0.%{git}.0
+Version:        0.14.0.%{git}.0
 Release:        1
 Summary:        An elegant and customizable terminal for GNOME
 License:        GPL-3.0
