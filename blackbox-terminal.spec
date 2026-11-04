@@ -49,8 +49,7 @@ This app is written in Vala and uses GTK 4, libadwaita, and VTE.
 %autosetup -n blackbox-v%{version} -p1
 
 %build
-%meson  \
-        -Dblackbox_is_flatpak=false
+%meson
 %meson_build
 
 %install
